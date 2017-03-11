@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="271dp"
+        android:src="@drawable/end"
+        android:id="@+id/imageView" />
+
+    <TextView
+        android:text="THANKS A LOT!"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="66dp"
+        android:layout_below="@+id/imageView"
+        android:id="@+id/tvEnd" />
+
+
+
+
+    <ImageButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/submit"
+
+        android:gravity="center"
+        android:layout_gravity="center"
+
+        android:layout_marginBottom="34dp"
+        android:id="@+id/imageButton3" />
+</LinearLayout>

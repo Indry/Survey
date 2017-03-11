@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:weightSum="1">
+
+    <TextView
+        android:text="income"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/tvIncome" />
+
+    <RadioGroup
+        android:id="@+id/radioGroup5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+
+        android:layout_below="@+id/tvSingle"
+        android:layout_marginTop="10dp">
+    <RadioButton
+        android:text="1000~5000"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/radioButton" />
+
+    <RadioButton
+        android:text="5000~15000"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/radioButton2" />
+
+    <RadioButton
+        android:text="15000~"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/radioButton4" />
+ </RadioGroup>
+
+    <TextView
+        android:text="single"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/tvSingle" />
+    <RadioGroup
+        android:id="@+id/radioGroup3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+
+        android:layout_below="@+id/tvSingle"
+        android:layout_marginTop="10dp">
+    <RadioButton
+        android:text="yes"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/radioButton5" />
+
+    <RadioButton
+        android:text="no"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/radioButton6" />
+    </RadioGroup>
+    <TextView
+        android:text="money"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/tvMoney" />
+
+    <RadioGroup
+        android:id="@+id/radioGroup4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+
+        android:layout_below="@+id/tvMoney"
+        android:layout_marginTop="10dp">
+    <RadioButton
+        android:text="less than 3000"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/radioButton7" />
+
+    <RadioButton
+        android:text="3000~8000"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/radioButton8" />
+
+    <RadioButton
+        android:text="more than 8000"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/radioButton9" />
+ </RadioGroup>
+
+    <TextView
+        android:text="Reason"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/tvReason" />
+
+    <RadioGroup
+        android:id="@+id/radioGroup6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+
+        android:layout_below="@+id/tvReason"
+        android:layout_marginTop="10dp">
+        <RadioButton
+            android:text="better rest better work "
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/radioButton10" />
+
+        <RadioButton
+            android:text="human needs life rather than is just alive"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/radioButton11" />
+
+        <RadioButton
+            android:text="just foe fun"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/radioButton12" />
+    </RadioGroup>
+
+
+
+    <ImageButton
+        android:layout_width="128dp"
+        android:layout_height="48dp"
+        android:src="@drawable/next"
+        android:id="@+id/imageButton"
+        android:layout_below="@+id/radioButton12"
+        android:gravity="center"
+        android:layout_gravity="center"
+        android:layout_marginTop="10dp"/>
+
+</LinearLayout>

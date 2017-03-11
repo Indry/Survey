@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:text="What is your age belong to ?"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/tvAge" />
+    <RadioGroup
+        android:id="@+id/radioGroup1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+
+        android:layout_below="@+id/tvAge"
+        android:layout_marginTop="10dp" >
+    <RadioButton
+        android:text="1~18"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/rBtnAge1" />
+
+    <RadioButton
+        android:text="19~30"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/rBtnAge2" />
+
+    <RadioButton
+        android:text="30~55"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/rBtnAge3" />
+
+    <RadioButton
+        android:text="55~"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/rBtnAge4" />
+
+</RadioGroup>
+    <TextView
+        android:text="what would you like to do during your leisure time?(you can choose more than one option！)"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/tvHobby" />
+
+    <CheckBox
+        android:text="reading books"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/cBoxHobby1" />
+
+    <CheckBox
+        android:text="do some sports"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/cBoxHobby2" />
+
+    <CheckBox
+        android:text="play computer games"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/cBoxHobby3" />
+
+    <CheckBox
+        android:text="just sleep"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/cBoxHobby4" />
+
+    <TextView
+        android:text="How much leisure time do  you have per week ? "
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/tvTime" />
+
+    <RadioGroup
+        android:id="@+id/radioGroup2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+
+        android:layout_below="@+id/tvTime"
+        android:layout_marginTop="10dp" >
+    <RadioButton
+        android:text="1 hour"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/rBtnTime1" />
+
+    <RadioButton
+        android:text="more than 1 hour but less than 1 day"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/rBtnTime2" />
+
+    <RadioButton
+        android:text="more than 1 day"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/rBtnTime3" />
+    </RadioGroup>
+    <ImageButton
+        android:layout_width="128dp"
+        android:layout_height="48dp"
+        android:src="@drawable/next"
+        android:layout_below="@+id/rBtnTime3"
+        android:gravity="center"
+        android:layout_gravity="center"
+        android:layout_marginTop="25dp"
+
+        android:id="@+id/imgBtn1" />
+
+
+
+</LinearLayout>

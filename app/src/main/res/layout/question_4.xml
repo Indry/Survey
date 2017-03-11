@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:weightSum="1">
+
+    <TextView
+        android:text="If you have to choose one way to spent your holiday which would you select?"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/tvChoose" />
+    <RadioGroup
+        android:id="@+id/radioGroup7"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+
+        android:layout_below="@+id/tvChoose"
+        android:layout_marginTop="10dp">
+    <RadioButton
+        android:text="go hiking"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/radioButton3" />
+
+    <RadioButton
+        android:text="chat with friends"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/radioButton13" />
+
+    <RadioButton
+        android:text="eat snack"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/radioButton14" />
+
+    <RadioButton
+        android:text="shopping"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/radioButton15" />
+</RadioGroup>
+    <TextView
+        android:text="May you take down your email?"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/tvEmail"
+        android:layout_below="@+id/radioGroup7" />
+
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="textEmailAddress"
+        android:ems="10"
+        android:id="@+id/etEmail" />
+
+    <TextView
+        android:text="How about your phone number?"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/tvPhone" />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="phone"
+        android:ems="10"
+        android:id="@+id/etPhone" />
+
+    <ImageButton
+        android:layout_width="128dp"
+        android:layout_height="48dp"
+        android:src="@drawable/next"
+        android:gravity="center"
+        android:layout_gravity="center"
+        android:layout_below="@+id/etPhone"
+        android:layout_marginTop="45dp"
+        android:id="@+id/imageButton2" />
+</LinearLayout>
